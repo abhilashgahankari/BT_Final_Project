@@ -3,15 +3,17 @@ App = {
   contracts: {},
 
   init: async function () {
-    // Load pets.
-    $.getJSON("../pets.json", function (data) {
+    // Load wallpapers.
+    $.getJSON("../wallpapers.json", function (data) {
       var wallpapersRow = $("#wallpapersRow");
       var wallpaperTemplate = $("#wallpaperTemplate");
 
       for (i = 0; i < data.length; i++) {
         wallpaperTemplate.find(".panel-title").text(data[i].name);
         wallpaperTemplate.find("img").attr("src", data[i].picture);
-        wallpaperTemplate.find(".wallpaper-breed").text(data[i].breed);
+        wallpaperTemplate
+          .find(".wallpaper-photographer")
+          .text(data[i].photographer);
         wallpaperTemplate.find(".wallpaper-location").text(data[i].location);
         wallpaperTemplate.find(".btn-purchase").attr("data-id", data[i].id);
 
@@ -81,7 +83,7 @@ App = {
       .then(function (purchasers) {
         for (i = 0; i < purchasers.length; i++) {
           if (purchasers[i] !== "0x0000000000000000000000000000000000000000") {
-            $(".panel-pet")
+            $(".panel-wallpaper")
               .eq(i)
               .find("button")
               .text("Success")
@@ -97,7 +99,7 @@ App = {
   handlePurchase: function (event) {
     event.preventDefault();
 
-    var wallpaperId = parseInt($(event.target).data("id"));
+    var purchaseId = parseInt($(event.target).data("id"));
 
     var purchaseInstance;
 

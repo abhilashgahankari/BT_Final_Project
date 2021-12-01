@@ -1,130 +1,98 @@
 [
   {
     "id": 0,
-    "name": "Frieda",
     "picture": "images/w1.jpg",
-    "age": 3,
-    "breed": "Scottish Terrier",
+    "photographer": "Joanie Roscoe",
     "location": "Lisco, Alabama"
   },
   {
     "id": 1,
-    "name": "Gina",
     "picture": "images/w2.jpg",
-    "age": 3,
-    "breed": "Scottish Terrier",
+    "photographer": "Euphemia Burton",
     "location": "Tooleville, West Virginia"
   },
   {
     "id": 2,
-    "name": "Collins",
     "picture": "images/w3.jpg",
-    "age": 2,
-    "breed": "French Bulldog",
+    "photographer": "Sheri Wilton",
     "location": "Freeburn, Idaho"
   },
   {
     "id": 3,
-    "name": "Melissa",
     "picture": "images/w4.jpg",
-    "age": 2,
-    "breed": "Boxer",
+    "photographer": "Casimir Saylor",
     "location": "Camas, Pennsylvania"
   },
   {
     "id": 4,
-    "name": "Jeanine",
     "picture": "images/w5.jpg",
-    "age": 2,
-    "breed": "French Bulldog",
+    "photographer": "Katee Trueman",
     "location": "Gerber, South Dakota"
   },
   {
     "id": 5,
-    "name": "Elvia",
     "picture": "images/w6.jpg",
-    "age": 3,
-    "breed": "French Bulldog",
+    "photographer": "Spencer Clarke",
     "location": "Innsbrook, Illinois"
   },
   {
     "id": 6,
-    "name": "Latisha",
     "picture": "images/w7.jpg",
-    "age": 3,
-    "breed": "Golden Retriever",
+    "photographer": "Bessie Emerson",
     "location": "Soudan, Louisiana"
   },
   {
     "id": 7,
-    "name": "Coleman",
     "picture": "images/w8.jpg",
-    "age": 3,
-    "breed": "Golden Retriever",
+    "photographer": "Harvey Easton",
     "location": "Jacksonwald, Palau"
   },
   {
     "id": 8,
-    "name": "Nichole",
     "picture": "images/w9.jpg",
-    "age": 2,
-    "breed": "French Bulldog",
+    "photographer": "Jennica Herriot",
     "location": "Honolulu, Hawaii"
   },
   {
     "id": 9,
-    "name": "Fran",
     "picture": "images/w10.jpg",
-    "age": 3,
-    "breed": "Boxer",
+    "photographer": "Crawford Phillips",
     "location": "Matheny, Utah"
   },
   {
     "id": 10,
-    "name": "Leonor",
     "picture": "images/w11.jpg",
-    "age": 2,
-    "breed": "Boxer",
+    "photographer": "Haze Ramsey",
     "location": "Tyhee, Indiana"
   },
   {
     "id": 11,
-    "name": "Dean",
     "picture": "images/w12.jpg",
-    "age": 3,
-    "breed": "Scottish Terrier",
+    "photographer": "Sharyn Read",
     "location": "Windsor, Montana"
   },
   {
     "id": 12,
-    "name": "Stevenson",
     "picture": "images/w13.jpg",
-    "age": 3,
-    "breed": "French Bulldog",
+    "photographer": "Lorna Garnet",
     "location": "Kingstowne, Nevada"
   },
   {
     "id": 13,
-    "name": "Kristina",
     "picture": "images/w14.jpg",
-    "age": 4,
-    "breed": "Golden Retriever",
+    "photographer": "Ulysses Josephs",
     "location": "Sultana, Massachusetts"
   },
   {
     "id": 14,
-    "name": "Ethel",
     "picture": "images/w15.jpg",
-    "age": 2,
-    "breed": "Golden Retriever",
+    "photographer": "Madoline Brooke",
     "location": "Broadlands, Oregon"
   },
   {
     "id": 15,
-    "name": "Terry",
     "picture": "images/w16.jpg",
-    "age": 2,
-    "breed": "Golden Retriever",
+    "photographer": "Kimmy Victor",
     "location": "Dawn, Wisconsin"
   }
 ]

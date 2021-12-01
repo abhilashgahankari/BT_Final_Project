@@ -2,39 +2,37 @@ pragma solidity >=0.5.0;
 
 import "truffle/Assert.sol";
 import "truffle/DeployedAddresses.sol";
-import "../contracts/Adoptions.sol";
+import "../contracts/Purchase.sol";
 
-contract TestAdoption {
-    // The address of the adoption contract to be Tested
-    Adoptions adoption = Adoptions(DeployedAddresses.Adoptions());
+contract TestPurchase{
+    // The address of the purchase contract to be Tested
+    Purchase purchase = Purchase(DeployedAddresses.Purchase());
 
-    //The id of the pet that will be used for testing
-    uint expectedPetId = 8;
+    //id of the wallpaper that will be used for  testing
+    uint expectedWallpaperId = 8;
 
-    //The expected owner of the adopted pet is this contract
-    address expectedAdopter = address(this);
+    //The expected purchaser of the wallpaper is this contract
+    address expectedPurchaser = address(this);
 
-    //Testing the adopt() function
-    function testUserCanAdopt() public {
-        uint returnedId = adoption.adopt(expectedPetId);
+    //testing the purchase function
+    function TestPurchas() public {
+        uint returedId = purchase.purchase(expectedWallpaperId);
 
-        Assert.equal(returnedId, expectedPetId, "Adoption of the expected pet should match what is returned.");
+        Assert.equal(returedId, expectedWallpaperId,"Purchase of the expected wallpaper should match what is returned.");
     }
 
-    //Testing retrival of a single Pet's owner
-    function testGetAdopterAddressByPetId() public {
-        address adopter = adoption.adopters(expectedPetId);
-
-        Assert.equal(adopter, expectedAdopter, "Owner of the expected pet should be this contract");
-
+    //testing retrival of all wallpaper owners
+    function testGetPurchaserAddressByWallpaperId()public {
+        address purchaser = purchase.purchasers(expectedWallpaperId);
+        Assert.equal(purchaser, expectedPurchaser,  "Owner of the expected wallpaper should be this contract");
     }
 
-    //Testing retrival of all pet owners
-    function testGetAdopterAddressbyPetIdArray() public {
-        //Store Adopters in memory rather than contract's storage
-        address[16] memory adopters = adoption.getAdopters();
+    //Testing retrival of all wallpaper owners
+    function testGetPurchaserAddressByWallpaperIdArray() public {
+        //Store purchasers in memory rather than contract's storage
+        address[16] memory purchasers = purchase.getPurchasers();
 
-        Assert.equal(adopters[expectedPetId], expectedAdopter, "Owner of the expected pet should be this contract");
+        Assert.equal(purchasers[expectedWallpaperId], expectedPurchaser, "Owner of the expected wallpaper should be this contract");
     }
 }
 
