@@ -11,9 +11,7 @@ App = {
       for (i = 0; i < data.length; i++) {
         wallpaperTemplate.find(".panel-title").text(data[i].name);
         wallpaperTemplate.find("img").attr("src", data[i].picture);
-        wallpaperTemplate
-          .find(".wallpaper-photographer")
-          .text(data[i].photographer);
+        wallpaperTemplate.find(".wallpaper-artist").text(data[i].artist);
         wallpaperTemplate.find(".wallpaper-location").text(data[i].location);
         wallpaperTemplate.find(".btn-purchase").attr("data-id", data[i].id);
 
