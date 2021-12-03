@@ -1,0 +1,98 @@
+[
+  {
+    "id": 0,
+    "picture": "images/w1.jpg",
+    "artist": "Joanie Roscoe",
+    "location": "Lisco, Alabama"
+  },
+  {
+    "id": 1,
+    "picture": "images/w2.jpg",
+    "artist": "Euphemia Burton",
+    "location": "Tooleville, West Virginia"
+  },
+  {
+    "id": 2,
+    "picture": "images/w3.jpg",
+    "artist": "Sheri Wilton",
+    "location": "Freeburn, Idaho"
+  },
+  {
+    "id": 3,
+    "picture": "images/w4.jpg",
+    "artist": "Casimir Saylor",
+    "location": "Camas, Pennsylvania"
+  },
+  {
+    "id": 4,
+    "picture": "images/w5.jpg",
+    "artist": "Katee Trueman",
+    "location": "Gerber, South Dakota"
+  },
+  {
+    "id": 5,
+    "picture": "images/w6.jpg",
+    "artist": "Spencer Clarke",
+    "location": "Innsbrook, Illinois"
+  },
+  {
+    "id": 6,
+    "picture": "images/w7.jpg",
+    "artist": "Bessie Emerson",
+    "location": "Soudan, Louisiana"
+  },
+  {
+    "id": 7,
+    "picture": "images/w8.jpg",
+    "artist": "Harvey Easton",
+    "location": "Jacksonwald, Palau"
+  },
+  {
+    "id": 8,
+    "picture": "images/w9.jpg",
+    "artist": "Jennica Herriot",
+    "location": "Honolulu, Hawaii"
+  },
+  {
+    "id": 9,
+    "picture": "images/w10.jpg",
+    "artist": "Crawford Phillips",
+    "location": "Matheny, Utah"
+  },
+  {
+    "id": 10,
+    "picture": "images/w11.jpg",
+    "artist": "Haze Ramsey",
+    "location": "Tyhee, Indiana"
+  },
+  {
+    "id": 11,
+    "picture": "images/w12.jpg",
+    "artist": "Sharyn Read",
+    "location": "Windsor, Montana"
+  },
+  {
+    "id": 12,
+    "picture": "images/w13.jpg",
+    "artist": "Lorna Garnet",
+    "location": "Kingstowne, Nevada"
+  },
+  {
+    "id": 13,
+    "picture": "images/w14.jpg",
+    "artist": "Ulysses Josephs",
+    "location": "Sultana, Massachusetts"
+  },
+  {
+    "id": 14,
+    "picture": "images/w15.jpg",
+    "artist": "Madoline Brooke",
+    "location": "Broadlands, Oregon"
+  },
+  {
+    "id": 15,
+    "picture": "images/w16.jpg",
+    "artist": "Kimmy Victor",
+    "location": "Dawn, Wisconsin"
+  }
+]
