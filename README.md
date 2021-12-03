@@ -1,6 +1,6 @@
 # Wallpaper Shop DApp using Truffle Suite
 
-This is a sample application using the [Truffle Framework](https://www.trufflesuite.com) to interact with the Ethereum Blockchain, making this my first sample DApp (Distributed Application)
+This is a sample application using the [Truffle Framework](https://www.trufflesuite.com) to interact with the Ethereum Blockchain(Distributed Application).
 
 ### Pre-requisites
 
@@ -14,7 +14,7 @@ $ npm install truffle
 
 - Install [Ganache](https://www.trufflesuite.com/ganache)
 
-- Install [Metamask](https://metamask.io) Chrome Browser extension
+- Install [Metamask Chrome Browser extension](https://metamask.io)
 
 ### Steps
 
@@ -54,8 +54,10 @@ $ npm run dev
 - When you run the `lite-server`, the Web application will open in your Chrome browser. It will also pop-up a window to connect a MetaMask account.
 - Import a new Account in Metamask by entering the Twelve work Seed Phrase seen on Ganache.
 - Then, in Metamask, in "Networks" create a custom Network connection, by connecting it to IPC URL "http://127.0.0.1:7545" (You can give it any Network Name like "Ganache")
-- That's it ! Now try clicking on "Purchase" and you should be able to purchase a wallpaper from your wallpaperShop
+- That's it ! Now try clicking on "Purchase" and you should be able to purchase a wallpaper from your wallpaperShop.
 
 ### Reference
 
-- [Ethereum Petshop](https://www.trufflesuite.com/tutorials/pet-shop)
+- [Ethereum Tutorials](https://www.trufflesuite.com/tutorials)
+- [ MetaMask Docs](https://docs.metamask.io/guide/)
+- [truffle Suite Docs](https://trufflesuite.com/docs/)
